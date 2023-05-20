@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* trabajamos el tamaño de las imagenes */
+.retro,
+.lapto,
+.gaming{
+    width: 10vh;
+    height:15vh;
+}
+.mobil-web{
+    width: 130vh;
+    height: 48vh;
+    object-fit: cover;
+}
+/* Trabajamos el header */
+header{
+    display: grid;
+    grid-template-areas: 'divlogo navbar';
+    padding: 1vh;
+}
+.div-logo{
+    grid-area: divlogo;
+}
+.nav-bar{
+    grid-area: navbar;
+}
+.nav-bar{
+    display:flex;
+    align-items:center;
+   justify-content:flex-end;
+   gap: 5vh;
+   color: hsl(233, 8%, 79%);
+   margin-right: 4vh;
+}
+/* Trabajos el main */
+main{
+    display: grid;
+    grid-template-areas: 
+    'mobil mobil asidergri'
+    'setionmore setionmore asidergri';
+    grid-template-columns: 2fr 1fr;
+}
+.mobile{
+    grid-area: mobil;
+}
+.more{
+    grid-area: setionmore;
+}
+.asider-div{
+    grid-area: asidergri;
+} 
+.more{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 120vh;
+}
+.more{
+    display: flex;
+    position: absolute;
+    margin-top: 49vh;
+}
+.future-h2{
+    font-size: 3rem;
+    width: 50vh;
+}
+.div-class{
+    display: grid;
+    width: 60vh;
+    padding:1vh;
+    align-self: center;
+    justify-content: flex-end;
+}
+.read{
+    display: grid;
+    justify-content: center;
+    background-color:  hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 1vh;
+    margin-top: 1vh;
+    /* margin-left: 15vh; */
+    margin-right: 22vh;
+    width: 18vh;
+}
+.content{
+    display: flex;
+    position: absolute;
+    margin-left: 18vh;
+    top: 10px;
+    font-size: 15px;
+    width: 50vh;
+}
+/* asider */
+.asider-content{
+    width: 65vh;
+    margin-right: 5vh;
+    height: 70vh;
+    background-color:hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+.asider-div{
+    display: grid;
+    padding: 3vh;
+}
+.asider-div h2{
+    padding-top: 5vh;
+}
+#newh2{
+    padding-top:2vh;
+    color: hsl(35, 77%, 62%);
+    font-size: 3rem;
+    display: grid;
+}
+hr{
+    margin-top: 3vh;
+}
+
+/* setion suggestion */
+.suggestion{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+.div-retro,
+.div-lapto,
+.div-gaming{
+    display: flex;
+}
+.number{
+    color: hsl(233, 8%, 79%);
+}
+.one,
+.two,
+.three{
+    padding: 2vh;
+}
